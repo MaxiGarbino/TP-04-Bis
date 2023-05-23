@@ -25,9 +25,9 @@ img{
   height: 10%;
   width: 18%;
 }
-div{
-  border-radius: 1%;
-  margin: 1px solid black;
+#info{
+  border-radius: 20%;
+  border: 3px solid #00bdba;
 }
 h1{
   color: #00bdba;
