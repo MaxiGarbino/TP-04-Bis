@@ -8,6 +8,7 @@
 <body>
 @foreach (Pais PaisARecorrer in ViewBag.ListaPaises)
     {
-        <img src='@PaisARecorrer.imgBandera' alt='@PaisARecorrer.Nombre'>
+        
+        <a href='@Url.Action("DetallePais", new {pais = @PaisARecorrer.Nombre})'><img src='@PaisARecorrer.imgBandera' alt='@PaisARecorrer.Nombre'></a>
     }
 </body>

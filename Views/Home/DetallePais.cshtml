@@ -1,6 +1,18 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Detalle Pais";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<img src='@ViewBag.PaisBuscado.imgBandera' alt='@ViewBag.PaisBuscado.Nombre'>
+
+<h2>Nombre del Pais: @ViewBag.PaisBuscado.Nombre </h2>
+
+<div>
+    <h3>Poblacion: @ViewBag.PaisBuscado.Poblacion</h3>
+    <h3>Fecha de independencia: @ViewBag.PaisBuscado.FechaIndependencia.Day/@ViewBag.PaisBuscado.FechaIndependencia.Month/@ViewBag.PaisBuscado.FechaIndependencia.Year</h3>
+    <h3>Atractivo Turistico: @ViewBag.PaisBuscado.AtractivosTuristicos</h3>
+</div>
+
+
+
+

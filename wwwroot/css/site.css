@@ -26,8 +26,15 @@ img{
   width: 18%;
 }
 div{
-  
+  border-radius: 1%;
+  margin: 1px solid black;
 }
 h1{
   color: #00bdba;
+}
+h3{
+  color: whitesmoke;
+}
+h4{
+  color: whitesmoke;
 }
